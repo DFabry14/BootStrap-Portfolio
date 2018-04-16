@@ -1,6 +1,5 @@
-.navbar {
-    width: 960px;
-    margin: auto;
+nav {
+    background-color: white;
 }
 
 .navbar-brand {
@@ -17,6 +16,10 @@
     font-size: 14px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+    color: grey;
 }
 
 header {
@@ -40,16 +43,16 @@ header {
     font-weight: bold;
     margin-left: 18px;
     margin: auto;
-    width: 900px;
     border-bottom: #dddddd solid 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
-    width: 960px;
     border: solid 1px #dddddd;
     background: white;
+    margin-bottom: 150px;
 }
+
 .text {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777; 
@@ -60,9 +63,9 @@ header {
 .headshot {
     margin-left: 18px;
     margin-right: 30px;
-    height: 140px;
     margin-top: 20px;
-    float: left;
+    max-width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -90,7 +93,6 @@ footer {
 }
 .form-group {
     margin-left: 18px;
-    width: 900px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     font-size: 14px;
@@ -113,24 +115,6 @@ button {
 }
 
 .portimages {
-    height: 150px;
-    width: 150px;
-    margin: 75px;
-}
-
-.container {
-    margin-bottom: 150px;
-}
-
-/* <!-- screen size options --> */
-
-@media screen and (max-width: 768px) {
-    .container {
-        width: 60%;
-    }
-    
-    .navbar {
-        width: 30%;
-        float: right;
-    }
+    height: auto;
+    width: 100%;
 }
